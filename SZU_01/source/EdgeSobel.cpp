@@ -12,7 +12,6 @@ void CEdgeSobel::ExtractEdgeSobel() {
     const char *imagename = "/Users/zhaoxuyan/Desktop/SZU DeepLearning/2018.7.23上机/Summer-2018.7.23上机素材/1.图像视频读取代码/boldt.jpg";
     //从文件中读入图像
     img = imread(imagename, 0);
-
     Mat SobelX;
     Mat SobelY;
     int ksize = 3;
@@ -50,4 +49,12 @@ void CEdgeSobel::MySobel(Mat InputImg, Mat &Gray32Mat) {
     imshow("MySobel", Gray32Mat);
     //此函数等待按键，按键盘任意键就返回
     waitKey(0);
+}
+
+void CEdgeSobel::MySobelProcess() {
+    const char *imagename = "/Users/zhaoxuyan/Desktop/SZU DeepLearning/2018.7.23上机/Summer-2018.7.23上机素材/1.图像视频读取代码/boldt.jpg";
+    Mat InputImg;
+    InputImg = imread(imagename, 0);
+    Mat Gray32Mat;
+    MySobel(InputImg, Gray32Mat);
 }

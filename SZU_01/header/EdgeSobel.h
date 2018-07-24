@@ -26,6 +26,8 @@ public:
 
     void MySobel(Mat InputImg, Mat &Gray32Mat);
 
+    void MySobelProcess();
+
 };
 
 #endif //SZU_01_EDGE_SOBEL_H
