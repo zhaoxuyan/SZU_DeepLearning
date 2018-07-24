@@ -14,6 +14,9 @@ using namespace cv;
 class CEdgeSobel {
 private:
     Mat img;
+    float m_OperatorX[9] = { -1,0,1,-2,0,2,-1,0,1 };
+    float m_OperatorY[9] = { -1,-2,-1,0,0,0,1,2,1 };
+    int OperatorSize = 3;
 public:
     CEdgeSobel();
 
@@ -21,7 +24,7 @@ public:
 
     void ExtractEdgeSobel();
 
-    void MySobel(Mat InputImg, Mat &Gray32Mat, float *Operator, int OperatorSize);
+    void MySobel(Mat InputImg, Mat &Gray32Mat);
 
 };
 

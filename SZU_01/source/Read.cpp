@@ -8,7 +8,7 @@ CRead::CRead() = default;
 CRead::~CRead() = default;
 
 void CRead::Read_Show() {
-    const char *imagename = "/Users/zhaoxuyan/Desktop/2018.7.23上机/Summer-2018.7.23上机素材/1.图像视频读取代码/boldt.jpg";
+    const char *imagename = "/Users/zhaoxuyan/Desktop/SZU DeepLearning/2018.7.23上机/Summer-2018.7.23上机素材/1.图像视频读取代码/boldt.jpg";
     //从文件中读入图像
     img = imread(imagename);
     //如果读入图像失败

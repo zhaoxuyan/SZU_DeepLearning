@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SZU_01.dir/source/main.cpp.o"
   "CMakeFiles/SZU_01.dir/source/TurnImg.cpp.o"
   "CMakeFiles/SZU_01.dir/source/EdgeSobel.cpp.o"
+  "CMakeFiles/SZU_01.dir/source/Utils.cpp.o"
   "SZU_01.pdb"
   "SZU_01"
 )

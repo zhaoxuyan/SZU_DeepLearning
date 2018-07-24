@@ -30,6 +30,12 @@ vector
 opencv2/opencv.hpp
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/opencv2/opencv.hpp
 
+/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/Utils.h
+vector
+/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/vector
+opencv2/opencv.hpp
+/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/opencv2/opencv.hpp
+
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/EdgeSobel.cpp
 ../header/EdgeSobel.h
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/EdgeSobel.h
@@ -37,6 +43,8 @@ opencv2/opencv.hpp
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/HaarDetection.cpp
 ../header/HaarDetection.h
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/HaarDetection.h
+../header/Utils.h
+/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/Utils.h
 
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/Read.cpp
 ../header/Read.h
@@ -45,6 +53,10 @@ opencv2/opencv.hpp
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/TurnImg.cpp
 ../header/TurnImg.h
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/TurnImg.h
+
+/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/Utils.cpp
+../header/Utils.h
+/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/header/Utils.h
 
 /Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/main.cpp
 ../header/HaarDetection.h

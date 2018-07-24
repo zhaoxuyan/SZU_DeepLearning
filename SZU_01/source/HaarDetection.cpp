@@ -1,4 +1,5 @@
 #include "../header/HaarDetection.h"
+#include "../header/Utils.h"
 
 
 CHaarDectection::CHaarDectection() {
@@ -47,7 +48,7 @@ void CHaarDectection::FaceDetection_Cam() {
             Point pt2(face.x, face.y);
             rectangle(img, pt1, pt2, cvScalar(0, 255, 255, 0), 2, 8, 0);
         }
-        imshow("Camera", img);
+        imshow("Result", img);
         video.write(img);
         if (waitKey(30) >= 0) break;
     }
@@ -58,7 +59,7 @@ void CHaarDectection::FaceDetection_Img() {
     Mat img;
     Mat grayscaleFrame;
 
-    const char *imagename = "/Users/zhaoxuyan/Desktop/img.jpg";
+    const char *imagename = "img_1.jpg";
     //从文件中读入图像
     img = imread(imagename);
 
@@ -74,7 +75,7 @@ void CHaarDectection::FaceDetection_Img() {
     // int flag1 = CASCADE_SCALE_IMAGE;
 
     float searchScaleFactor = 1.1f;
-    int minNeighbors = 4;
+    int minNeighbors = 2;
     cascade_faceDector.detectMultiScale(grayscaleFrame, faces, searchScaleFactor, minNeighbors, flag0,
                                         Size(20, 20));
     for (auto &face : faces) {
@@ -82,7 +83,13 @@ void CHaarDectection::FaceDetection_Img() {
         Point pt2(face.x, face.y);
         rectangle(img, pt1, pt2, cvScalar(0, 255, 255, 0), 2, 8, 0);
     }
-    imshow("Camera", img);
+
+    // 在图片上显示人脸数量
+    auto faces_num = static_cast<int>(faces.size());
+    CUtils utils;
+    string res = utils.int2string(faces_num);
+    putText(img, "Faces num:" + res, Point(50, 80), FONT_HERSHEY_SIMPLEX, 1, Scalar(0, 255, 255), 2, 8);//在图片上写文字
+    imshow("Result", img);
     waitKey(0);
 }
 

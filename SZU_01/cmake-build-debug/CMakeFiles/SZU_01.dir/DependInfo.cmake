@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/HaarDetection.cpp" "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/cmake-build-debug/CMakeFiles/SZU_01.dir/source/HaarDetection.cpp.o"
   "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/Read.cpp" "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/cmake-build-debug/CMakeFiles/SZU_01.dir/source/Read.cpp.o"
   "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/TurnImg.cpp" "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/cmake-build-debug/CMakeFiles/SZU_01.dir/source/TurnImg.cpp.o"
+  "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/Utils.cpp" "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/cmake-build-debug/CMakeFiles/SZU_01.dir/source/Utils.cpp.o"
   "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/source/main.cpp" "/Users/zhaoxuyan/CLionProjects/SZU_DeepLearning/SZU_01/cmake-build-debug/CMakeFiles/SZU_01.dir/source/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
